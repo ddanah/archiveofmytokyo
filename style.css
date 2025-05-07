@@ -78,17 +78,17 @@ span {
     margin-bottom: 20px;
 }
 
-.이유 {
+.reason {
     width: 20vw; 
 }
 
 @media (max-width: 768px) {
-    .이유 {
+    .reason {
       width: 100%;
     }
 }
 
-.왜가요 {
+.why {
     font-size: 14px;
     margin-left: 40px;
     margin-right: 40px;
