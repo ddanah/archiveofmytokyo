@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Orbit&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zhi+Mang+Xing&display=swap');
+
+body {
+    font-family: "Orbit", sans-serif;
+    margin:0;
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 4fr 0.5fr;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top h1,
+.top .date {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+span {
+    color: crimson;
+}
+
+.date {
+    font-size: 12px;
+    color: grey
+} 
+
+.word {
+    display: flex;
+    gap: 50px;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.letter {
+    text-decoration: none;
+    color: black;
+    transition: transform 0.2s, color 0.2x;
+}
+
+.letter:hover {
+    transform: scale(1.2);
+    color: crimson;
+}
+
+.after {
+    font-size: 12px;
+    margin: 20px;
+}
+
+.t_middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+    padding-bottom: 40px;
+}
+
+.h2 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.이유 {
+    width: 20vw;
+}
+
+@media (max-width: 768px) {
+    .이유 {
+      width: 100%;
+    }
+}
+
+.왜가요 {
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.list {
+    text-align: left;
+    font-size: 14px;
+}
+
+.리스트설명 {
+    color: grey;
+}
+
+.k_middle {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+}
+
+.k_middle p {
+    font-size: 14px; 
+    margin: 0.2em 0;
+  }
+
+.k_middle .note {
+    font-size: 12px;
+    color: grey;
+  }
+
+.일정설명 {
+    color: crimson;
+}
+/* k끝 */
+
+.y_middle {
+    display: grid;
+    grid-template-rows: 0.5fr 3fr;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+}
+
+.y_middle a {
+    color: crimson;;
+}
+
+.y_middle p {
+    font-size: 13px;
+    margin: 0.2em 0;
+    padding-bottom: 40px;
+}
+
+.o2_middle {
+    display: grid;
+    grid-template-rows: 0.5fr auto;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid;
+}
+
+.photo_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, auto);
+    gap: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.photo_grid img {
+    width: 100%; 
+    object-fit: cover;
+}
